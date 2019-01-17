@@ -25,9 +25,9 @@
 ## Purpose
 
 The purpose of this repo is to illustrate a basic level of competency in the PHP
-language and to accompany the blog posts made on bitshift.net.au, which the author
-hopes will serve the community of novice programmers and therefore the greater
-software community.
+language and to accompany the blog posts (soon to be made) on bitshift.net.au, 
+which the author hopes will serve the community of novice programmers and 
+therefore the greater software community.
 
 So far, there are several projects dealing with basic concepts like functions,
 conditionals, switch-case, jump-tables, associative arrays, and so on...
