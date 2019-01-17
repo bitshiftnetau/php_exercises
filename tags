@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/380fa1c7/
+License	README.md	/^## License$/;"	s
+Purpose	README.md	/^## Purpose$/;"	s
+a	checkboxes/index.php	/^  $a = $fruits[0];$/;"	v
+age	conditionals/index.php	/^$age = 17;$/;"	v
+b	checkboxes/index.php	/^  $b = $fruits[1];$/;"	v
+c	checkboxes/index.php	/^  $c = $fruits[2];$/;"	v
+color	madlibs/index.php	/^  $color = $_GET["color"];$/;"	v
+cube	functions/index.php	/^    function cube($n){$/;"	f
+cubed	functions/index.php	/^    $cubed = new_function($_POST["name"], $_POST["age"]);$/;"	v
+fruits	checkboxes/index.php	/^$fruits = $_POST["fruits"];$/;"	v
+grades	ass_arrays/index.php	/^  $grades = array("Jim" => "A+", "Dave" => "C", "Janice" => "D");$/;"	v
+isMale	conditionals/index.php	/^$isMale = "yes";$/;"	v
+isTall	conditionals/index.php	/^$isTall = true;$/;"	v
+jump_table	calc_jump-table/index.php	/^    $jump_table = array("1"=>"*",$/;"	v
+key	ass_arrays/output.php	/^$key = $_POST["key"];$/;"	v
+kv	ass_arrays/output.php	/^$kv = array($/;"	v
+largest	arrays/index.php	/^    $largest = $elements > $largest ? $elements : $largest;$/;"	v
+new_function	functions/index.php	/^    function new_function($name, $age){$/;"	f
+num_ret	conditionals/index.php	/^echo $num_ret = ter(3,5);$/;"	v
+num_ret	functions/index.php	/^    echo $num_ret = ternary(3,5);$/;"	v
+numbers	arrays/index.php	/^  $numbers = $_POST["num"];$/;"	v
+numbers	calc_jump-table/index.php	/^    $numbers = $_POST["numbers"];$/;"	v
+numbers	calculator/index.php	/^    $numbers = $_POST["numbers"];$/;"	v
+operand	calc_jump-table/index.php	/^    echo $operand = $jump_table[$operator_form_array[0]];$/;"	v
+operator	calc_jump-table/index.php	/^    $operator = $jump_table[$operator_form_array[0]];$/;"	v
+operator_form_array	calc_jump-table/index.php	/^    $operator_form_array = $_POST["operator"];$/;"	v
+operator_form_array	calculator/index.php	/^    $operator_form_array = $_POST["operator"];$/;"	v
+ter	conditionals/index.php	/^function ter($num1, $num2){$/;"	f
+ternary	functions/index.php	/^    function ternary($num1, $num2){$/;"	f
+test	madlibs/index.php	/^  $test = $_GET["asdf"];$/;"	v
+value	ass_arrays/output.php	/^$value = $_POST["value"];$/;"	v
