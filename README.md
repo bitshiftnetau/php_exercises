@@ -36,8 +36,7 @@ Moving forward, these projects will grow in complexity to further illustrate a
 growth in understanding and application of the PHP programming language.
 
 The author invites anyone to participate in studying and applying the concepts
-illustrated in these projects and to make contact if needing assistance, even
-if the assistance pertains to material outside of this repo.
+illustrated in these projects and to make contact if needing assistance.
 
 However, the author would like to gently remind participants to take extra time
 in understanding the concepts, even when they do not initially seem obvious. It
