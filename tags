@@ -4,9 +4,11 @@
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	0.0.0	/380fa1c7/
+!_TAG_PROGRAM_VERSION	0.0.0	/a20bb99d/
+Aidan's Header	header-footer/header.html	/^<h3>Aidan's Header<\/h3>$/;"	j
 License	README.md	/^## License$/;"	s
 Purpose	README.md	/^## Purpose$/;"	s
+Thanks for visiting!!!	header-footer/footer.html	/^<h3>Thanks for visiting!!!<\/h3>$/;"	j
 a	checkboxes/index.php	/^  $a = $fruits[0];$/;"	v
 age	conditionals/index.php	/^$age = 17;$/;"	v
 b	checkboxes/index.php	/^  $b = $fruits[1];$/;"	v

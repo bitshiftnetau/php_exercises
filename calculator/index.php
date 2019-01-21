@@ -8,7 +8,7 @@
   
 
   <form action="index.php" method="POST">
-    <input type="number" name="numbers[]">
+    <input type="number" step="0.001" name="numbers[]">
      *: <input type="radio" name="operator[]" value="*">
      /: <input type="radio" name="operator[]" value="/">
      +: <input type="radio" name="operator[]" value="+">
