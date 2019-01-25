@@ -6,35 +6,35 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a20bb99d/
 Aidan's Header	header-footer/header.html	/^<h3>Aidan's Header<\/h3>$/;"	j
-Book	classes-and-objects/index.php	/^class Book {$/;"	c
-Library	classes-and-objects/index.php	/^class Library {$/;"	c
+Book	classes-and-objects/store_book.php	/^class Book {$/;"	c
+Library	classes-and-objects/store_library.php	/^class Library {$/;"	c
 License	README.md	/^## License$/;"	s
 Purpose	README.md	/^## Purpose$/;"	s
 Thanks for visiting!!!	header-footer/footer.html	/^<h3>Thanks for visiting!!!<\/h3>$/;"	j
-__construct	classes-and-objects/index.php	/^  function __construct($form_array){$/;"	f	class:Book
-__construct	classes-and-objects/index.php	/^  function __construct($form_array){$/;"	f	class:Library
-_sort	classes-and-objects/index.php	/^  private function _sort($i, $len){$/;"	f	class:Library
+__construct	classes-and-objects/store_book.php	/^  function __construct($name, $title, $author, $pages, $genre){$/;"	f	class:Book
+__construct	classes-and-objects/store_library.php	/^  function __construct($name, $address, $number){$/;"	f	class:Library
+_sort	classes-and-objects/store_library.php	/^  private function _sort($i, $len){$/;"	f	class:Library
 a	checkboxes/index.php	/^  $a = $fruits[0];$/;"	v
-add_book	classes-and-objects/index.php	/^  function add_book($new_book){$/;"	f	class:Library
+add_book	classes-and-objects/store_library.php	/^  function add_book($new_book){$/;"	f	class:Library
 age	conditionals/index.php	/^$age = 17;$/;"	v
-author	classes-and-objects/index.php	/^  private $author;$/;"	v	class:Book
+author	classes-and-objects/store_book.php	/^  private $author;$/;"	v	class:Book
 b	checkboxes/index.php	/^  $b = $fruits[1];$/;"	v
-book1	classes-and-objects/index.php	/^    $book1 = new Book($_POST["book_details"]);$/;"	v
+book1	classes-and-objects/store_book.php	/^$book1 = new Book(...$_POST["book_details"]);$/;"	v
 c	checkboxes/index.php	/^  $c = $fruits[2];$/;"	v
 color	madlibs/index.php	/^  $color = $_GET["color"];$/;"	v
 count	loops/index.php	/^$count = count($num_array);$/;"	v
 cube	functions/index.php	/^    function cube($n){$/;"	f
 cubed	functions/index.php	/^    $cubed = new_function($_POST["name"], $_POST["age"]);$/;"	v
-del_book	classes-and-objects/index.php	/^  function del_book($old_book){$/;"	f	class:Library
+del_book	classes-and-objects/store_library.php	/^  function del_book($old_book){$/;"	f	class:Library
 fruits	checkboxes/index.php	/^$fruits = $_POST["fruits"];$/;"	v
-genre	classes-and-objects/index.php	/^  private $genre;$/;"	v	class:Book
-genres	classes-and-objects/index.php	/^  private $genres = array();$/;"	v	class:Library
+genre	classes-and-objects/store_book.php	/^  private $genre;$/;"	v	class:Book
+genres	classes-and-objects/store_library.php	/^  private $genres = array();$/;"	v	class:Library
 grades	ass_arrays/index.php	/^  $grades = array("Jim" => "A+", "Dave" => "C", "Janice" => "D");$/;"	v
 i	loops/index.php	/^  for($i = $num_array[0]; $i < $num_array[1]; $i += $num_array[3]){$/;"	v
 i_neg	loops/index.php	/^      $i_neg = $i;$/;"	v
 i_store	loops/index.php	/^      $i_store = $i - $num_array[0];$/;"	v
 i_store	loops/index.php	/^    $i_store = $i;$/;"	v
-index	classes-and-objects/index.php	/^  private $index = array();$/;"	v	class:Library
+index	classes-and-objects/store_library.php	/^  private $index = array();$/;"	v	class:Library
 isMale	conditionals/index.php	/^$isMale = "yes";$/;"	v
 isTall	conditionals/index.php	/^$isTall = true;$/;"	v
 j	loops/index.php	/^  for($j = 0; $j < count($num_array); $j++){$/;"	v
@@ -43,11 +43,11 @@ k	loops/index.php	/^    $k = $num_total[$j];$/;"	v
 key	ass_arrays/output.php	/^$key = $_POST["key"];$/;"	v
 kv	ass_arrays/output.php	/^$kv = array($/;"	v
 largest	arrays/index.php	/^    $largest = $elements > $largest ? $elements : $largest;$/;"	v
-lib1	classes-and-objects/index.php	/^    $lib1 = new Library($_POST["lib_details"]);$/;"	v
-library_address	classes-and-objects/index.php	/^  var $library_address;$/;"	v	class:Library
-library_name	classes-and-objects/index.php	/^  var $library_name;$/;"	v	class:Library
-library_number	classes-and-objects/index.php	/^  var $library_number;$/;"	v	class:Library
-name	classes-and-objects/index.php	/^  private $name;$/;"	v	class:Book
+lib1	classes-and-objects/store_library.php	/^    $lib1 = new Library(...$_POST["lib_details"]);$/;"	v
+library_address	classes-and-objects/store_library.php	/^  private $library_address;$/;"	v	class:Library
+library_name	classes-and-objects/store_library.php	/^  private $library_name;$/;"	v	class:Library
+library_number	classes-and-objects/store_library.php	/^  private $library_number;$/;"	v	class:Library
+name	classes-and-objects/store_book.php	/^  private $name;$/;"	v	class:Book
 new_function	functions/index.php	/^    function new_function($name, $age){$/;"	f
 num_array	loops/index.php	/^$num_array = $_POST["num"];$/;"	v
 num_ret	conditionals/index.php	/^echo $num_ret = ter(3,5);$/;"	v
@@ -59,12 +59,13 @@ operand	calc_jump-table/index.php	/^    echo $operand = $jump_table[$operator_fo
 operator	calc_jump-table/index.php	/^    $operator = $jump_table[$operator_form_array[0]];$/;"	v
 operator_form_array	calc_jump-table/index.php	/^    $operator_form_array = $_POST["operator"];$/;"	v
 operator_form_array	calculator/index.php	/^    $operator_form_array = $_POST["operator"];$/;"	v
-pages	classes-and-objects/index.php	/^  private $pages;$/;"	v	class:Book
-print	classes-and-objects/index.php	/^  function print($book){$/;"	f	class:Book
+pages	classes-and-objects/store_book.php	/^  private $pages;$/;"	v	class:Book
+print_book	classes-and-objects/store_book.php	/^  function print_book($book){$/;"	f	class:Book
+print_lib	classes-and-objects/store_library.php	/^  function print_lib($library){$/;"	f	class:Library
 ter	conditionals/index.php	/^function ter($num1, $num2){$/;"	f
 ternary	functions/index.php	/^    function ternary($num1, $num2){$/;"	f
 test	madlibs/index.php	/^  $test = $_GET["asdf"];$/;"	v
 test_function	include_tools/some_functions.php	/^function test_function($var){$/;"	f
-title	classes-and-objects/index.php	/^  private $title;$/;"	v	class:Book
+title	classes-and-objects/store_book.php	/^  private $title;$/;"	v	class:Book
 value	ass_arrays/output.php	/^$value = $_POST["value"];$/;"	v
 variable	include_tools/some_functions.php	/^$variable = 10;$/;"	v
