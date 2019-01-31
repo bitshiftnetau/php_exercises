@@ -12,15 +12,12 @@
 
 <body>
 
-<?php include "library_container_header.php"; ?>
-
-<div class="header">
-
+<div>
   <h1>Library</h1>
-  
   <?php include "library_navbar.php"; ?>
-
 </div>
+
+<?php include "library_container_header.php"; ?>
 
 
 
