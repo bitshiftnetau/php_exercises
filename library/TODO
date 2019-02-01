@@ -1,0 +1,11 @@
+- fix container alignment and navbar  
+DONE... 1. move background image from container to body (do this in CSS)
+DONE... 2. set background image in body using javascript
+3. enable fadeout of background image in javascript
+4. play with navbar placement 
+5. connect sql via odbc
+6. stop page flicker on load
+
+- Alter application to be a document editing server like nextcloud but smaller
+- Alter application to be a video storage server
+

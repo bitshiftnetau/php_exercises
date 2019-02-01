@@ -1,7 +1,6 @@
-<?php
+<?php include "library_header.php";?>
 
-include "library_header.php";
-include "library_navbar.php";
+<?php
 
 /***************
  * BOOK CLASS
@@ -32,8 +31,8 @@ class Book {
       New book was created by: $this->name<br>
       Title: $this->title <br>
       Author: $this->author <br>
-      Pages: $this->pages <br>";
-    
+      Pages: $this->pages <br>
+      Genre: $this->genre <br>";    
   }
 
 }
@@ -42,3 +41,5 @@ $book1 = new Book(...$_POST["book_details"]);
 $book1->print_book($book1);
 
 ?>
+
+<?php include "library_footer.php";?>

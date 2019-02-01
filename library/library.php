@@ -2,16 +2,25 @@
 include "library_header.php";
 ?>
 
-<div class="library full-size">
-<h2>Create new library</h2>
-  <form action="store_library.php" method="POST">
-    Library Name: <input type="text" name="lib_details[]"><br>
-    Library Address: <input type="text" name="lib_details[]"><br>
-    Library Ph #: <input type="text" name="lib_details[]"><br>
-  <input type="submit" value="submit"><br>
-</form>
+<form action="store_library.php" method="POST" id="details">
 
-</div>
+  <div class="form-group">
+
+    <div class="form-element">
+      <input type="text" class="form-control" name="lib_details[]" id="library-name" placeholder="library-name" required>
+    </div>
+
+    <div class="form-element">
+      <input type="text" class="form-control" name="lib_details[]" id="address" placeholder="address" required>
+    </div>
+
+    <div class="form-element">
+      <input type="text" class="form-control" name="lib_details[]" id="phone" placeholder="phone" required>
+    </div>
+
+    <input type="submit" class="btn btn-secondary fade-out grad" value="submit">
+
+</form>
 
 <?php 
 include "library_footer.php";

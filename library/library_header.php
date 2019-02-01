@@ -4,20 +4,21 @@
   <meta charset="UTF-8">
   <title></title>
 
-<?php include "/srv/code/php/bootstrap.php"; ?>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
 <link rel="stylesheet" href="style.css">
+<script src="jquery-core.js"></script>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 
 </head>
 
-<body>
+<body>  
 
-<div>
-  <h1>Library</h1>
-  <?php include "library_navbar.php"; ?>
-</div>
 
-<?php include "library_container_header.php"; ?>
+<?php include "library_navbar.php"; ?>
 
+<div class="container body-alignment-main">
 
 

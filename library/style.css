@@ -1,30 +1,42 @@
-.home_btns{
-  margin: auto;
-  width: 100%;
-  border: none;
-  padding: 10px;
-  text-align: center;
+body, html {
+  height: 100%;
 }
+
+body {
+    visibility:hidden;
+    opacity: 0.0;
+}
+
+/*
+.test {
+    visibility:visible;
+    opacity: 1.0;
+}
+*/
+
 
 h1 {
   text-align: center;
 }
 
-body, html {
-  height: 100%;
+.body-alignment-main{
+  margin-top: 80px;
+  height: 50%;
 }
 
-/*
-.parallax {
-  height: 100%;
+a:focus { 
+    outline: none; 
+}
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
-*/
+a {
+   outline: 0;
+}
 
+::-moz-focus-inner, :active, :focus {
+    outline:none;
+    border:0;
+    -moz-outline-style: none;
+}
 
 .nav {
     width: 100%;
@@ -32,98 +44,135 @@ body, html {
     background-color: #272727;
     overflow: hidden;
     position: fixed;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgba(255,255,255,1.0);
 }
 
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1.0);
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.0);
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.form-control{
+  background-color: rgba(30,30,30,1.0);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.form-element{
+  margin: 10px 0;
+}
+
+div.dropdown-menu.show{
+  background-color: #262932;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+input[type=text]:focus {
+        background: black;
+        box-shadow: 0 0 5px #1C2940 ;
+        border: 1px solid #1C2940;
+    }
+
+
+.license {
+    color: rgba(30,30,30,0.3);
+}
+
 .home {
-  /* The image used */
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
   background-attachment: fixed;
   background-image: url("library_splash.jpeg");
-   background-position: center; /* Center the image */
+  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+/*   -webkit-animation: fadein 1s;
+      -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s; 
+         -o-animation: fadein 1s; 
+            animation: fadein 1s;
+*/
 }
 
 .library {
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
   background-attachment: fixed;
   background-image: url("library_splash_darkened.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  /* -webkit-animation: fadein 2s;
+      -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
+            animation: fadein 2s;
+*/
+
 }
 
 .book {
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
   background-attachment: fixed;
   background-image: url("book_splash.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  /*  -webkit-animation: fadein 2s;
+      -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
+            animation: fadein 2s;
+*/
+
 }
 
-.license {
+.home-btns{
+  height: 50px;
+  margin: auto;
+  width: 100%;
+  border: none;
   text-align: center;
+}
+
+.grad {
+  background-image: linear-gradient(#383C4A, black);
 }
 
 .force-to-bottom {
   position:absolute;
-  bottom: 1%;
-  width: 100%;
+  width:100%;
+  bottom:0;
 }
 
-.full-size {
-  height: 100%;
-  width: 100%;
-}
-
-.form-border {
-  padding: 50px 200px;
-}
-
-
-
-
+/*
 @keyframes fadein {
-from {
-    opacity:0;
-}
-to {
-    opacity:1;
-}
-}
-@-moz-keyframes fadein { 
-from {
-    opacity:0;
-}
-to {
-    opacity:1;
-}
-}
-@-webkit-keyframes fadein {
-from {
-    opacity:0;
-}
-to {
-    opacity:1;
-}
-}
-@-o-keyframes fadein {
-from {
-    opacity:0;
-}
-to {
-    opacity: 1;
-}
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}*/

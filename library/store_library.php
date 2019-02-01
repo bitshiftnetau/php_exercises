@@ -1,8 +1,6 @@
+<?php include "library_header.php"; ?>
+
 <?php
-
-include "library_header.php";
-include "library_navbar.php";
-
 /*****************
  * LIBRARY CLASS 
  ****************/
@@ -68,3 +66,5 @@ class Library {
 
 
 ?>
+
+<?php include "library_footer.php";?>
