@@ -2,6 +2,7 @@
 include "library_header.php";
 ?>
 
+
 <form action="store_book.php" method="POST" id="details">
 
   <div class="form-group">
@@ -30,7 +31,7 @@ include "library_header.php";
 
 </form>
 
- 
+
 <?php
 include "library_footer.php"; 
 ?>

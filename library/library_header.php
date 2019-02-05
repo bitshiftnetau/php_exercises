@@ -8,9 +8,6 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
 <link rel="stylesheet" href="style.css">
-<script src="jquery-core.js"></script>
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 
 </head>
 

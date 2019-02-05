@@ -8,7 +8,7 @@
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mr-auto">
-     <li class="nav-item dropdown mr-auto">
+     <li class="nav-item dropdown mr-auto" id="books-dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Books
         </a>
@@ -17,7 +17,7 @@
           <a class="dropdown-item ml-auto fade-out" href="list_books.php">List Books</a>
         </div>
       </li>
-      <li class="nav-item dropdown mr-auto">
+      <li class="nav-item dropdown mr-auto" id="library-dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Library
         </a>

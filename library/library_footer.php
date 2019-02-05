@@ -1,11 +1,14 @@
 
-<div class="license force-to-bottom">
-    <p>License 2019<p>
+</div> <!-- close the global div -->
+
+<div id="license">
+    <p>&copy; 2015 bitshift.net.au</p>
 </div>
 
-</div> <!-- close the global div -->
+
 </body>
 
+<script src="jquery-core.js"></script>
 
 <!-- Javascript for Bootstrap -->
 <script src="bootstrap/js/bootstrap.bundle.js" ></script>

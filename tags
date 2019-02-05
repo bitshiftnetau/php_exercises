@@ -5,6 +5,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/a20bb99d/
+#license	library/style.css	/^#license {$/;"	i
 $t	library/bootstrap/js/bootstrap.bundle.min.js	/^!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("jquery"))/;"	f
 *	library/bootstrap/css/bootstrap-grid.css	/^*,$/;"	s
 *	library/bootstrap/css/bootstrap-grid.min.css	/^ *\/html{box-sizing:border-box;-ms-overflow-style:scrollbar}*,::after,::before{box-sizing:inheri/;"	s
@@ -2190,6 +2191,7 @@ $t	library/bootstrap/js/bootstrap.bundle.min.js	/^!function(t,e){"object"==typeo
 .dropdown-item:last-child	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
 .dropdown-menu	library/bootstrap/css/bootstrap.css	/^.dropdown-menu {$/;"	c
 .dropdown-menu	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
+.dropdown-menu	library/style.css	/^.dropdown-menu{$/;"	c
 .dropdown-menu-left	library/bootstrap/css/bootstrap.css	/^.dropdown-menu-left {$/;"	c
 .dropdown-menu-left	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
 .dropdown-menu-lg-left	library/bootstrap/css/bootstrap.css	/^  .dropdown-menu-lg-left {$/;"	c
@@ -2660,6 +2662,7 @@ $t	library/bootstrap/js/bootstrap.bundle.min.js	/^!function(t,e){"object"==typeo
 .form-element	library/style.css	/^.form-element{$/;"	c
 .form-group	library/bootstrap/css/bootstrap.css	/^.form-group {$/;"	c
 .form-group	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
+.form-group	library/style.css	/^.form-group{$/;"	c
 .form-inline	library/bootstrap/css/bootstrap.css	/^.form-inline {$/;"	c
 .form-inline	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
 .form-inline .custom-control	library/bootstrap/css/bootstrap.css	/^  .form-inline .custom-control {$/;"	c
@@ -3010,7 +3013,6 @@ $t	library/bootstrap/js/bootstrap.bundle.min.js	/^!function(t,e){"object"==typeo
 .lead	library/bootstrap/css/bootstrap.css	/^.lead {$/;"	c
 .lead	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
 .library	library/style.css	/^.library {$/;"	c
-.license	library/style.css	/^.license {$/;"	c
 .list-group	library/bootstrap/css/bootstrap.css	/^.list-group {$/;"	c
 .list-group	library/bootstrap/css/bootstrap.min.css	/^ *\/:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange/;"	c
 .list-group-flush .list-group-item	library/bootstrap/css/bootstrap.css	/^.list-group-flush .list-group-item {$/;"	c
@@ -7398,6 +7400,8 @@ AnonymousFunction5625189dbe00	library/bootstrap/js/bootstrap.min.js	/^!function(
 AnonymousFunction5625189dbf00	library/bootstrap/js/bootstrap.min.js	/^!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("popper.js/;"	f
 AnonymousFunction5625189dc000	library/bootstrap/js/bootstrap.min.js	/^!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("popper.js/;"	f
 AnonymousFunction6f26f56d0100	library/library_main.js	/^$(document).ready(function(){$/;"	f
+AnonymousFunction6f26f56d0200	library/library_main.js	/^  $("a#navbarDropdownMenuLink1.nav-link.dropdown-toggle").click(function(){$/;"	f
+AnonymousFunction6f26f56d0300	library/library_main.js	/^  $("a#navbarDropdownMenuLink2.nav-link.dropdown-toggle").click(function(){$/;"	f
 AnonymousFunction7d5536730100	library/bootstrap/js/bootstrap.bundle.js	/^}(this, (function (exports,$) { 'use strict';$/;"	f
 AnonymousFunction7d5536730200	library/bootstrap/js/bootstrap.bundle.js	/^        ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {$/;"	f	function:AnonymousFunction7d5536730100._objectSpread
 AnonymousFunction7d5536730300	library/bootstrap/js/bootstrap.bundle.js	/^      ownKeys.forEach(function (key) {$/;"	f
